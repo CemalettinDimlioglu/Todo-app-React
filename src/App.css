@@ -1,0 +1,30 @@
+ *{
+  background-color: #fff56b;
+ }
+ .App{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+ }
+ input{
+  height: 20px;
+  padding: 5px 20px;
+  background-color: white;
+ }
+ button{
+  margin: 10px 0;
+  border: none;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: white;
+  font-size: 16px;
+  background-color: navy;
+  transition: 0.3s;
+ }
+
+ button:hover{
+color: #ff7b4;
+background-color: #333;
+ }
