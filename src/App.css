@@ -1,5 +1,5 @@
  *{
-  background-color: #fff56b;
+  background-color: #daf205;
  }
  .App{
   text-align: center;
@@ -27,4 +27,24 @@
  button:hover{
 color: #ff7b4;
 background-color: #333;
+ }
+ ul{
+  width: 100&;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ li{
+  padding: 5px 20px;
+  width: 359px;
+  background-color: #939b62;
+  list-style-type: none;
+  text-align: start;
+  border-bottom: 2px solid #ff7b54;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.7px;
  }
